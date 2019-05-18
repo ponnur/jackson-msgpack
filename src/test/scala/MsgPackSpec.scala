@@ -8,7 +8,7 @@ import org.msgpack.jackson.dataformat.MessagePackFactory
 
 class MsgPackSpec extends FlatSpec {
 
-  "MsgPack" should "handle invalid msg pack message" in {
+  "MsgPack Updated" should "handle invalid msg pack message" in {
 
     val msgpackMapper = new ObjectMapper(new MessagePackFactory)
     msgpackMapper.registerModule(DefaultScalaModule)
